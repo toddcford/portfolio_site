@@ -58,7 +58,7 @@ function App() {
 
     return (
       <div className='ReactParent'>
-        <BrowserRouter>
+        <HashRouter>
         <div className="nav-container" >
           <NavigationBar items={nav_items}/>
         </div>
@@ -92,7 +92,7 @@ function App() {
             </Route>
           </Switch>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
 }
