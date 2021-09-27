@@ -36,8 +36,10 @@ function Header(props) {
 function ContentItem(props) {
   return (
     <div className="content-item">
-      <a href={props.site}> <img height='150px' width='150px' src={process.env.PUBLIC_URL + props.img_ext} alt={props.name}/> </a>
-      <p id='content-p'> {props.name} </p>
+      <a className="content-link" href={props.site}>
+        <img height='200px' width='200px' src={process.env.PUBLIC_URL + props.img_ext} alt={props.name} href="http://espn.com"/>
+        <p id='content-p'> {props.name} </p> 
+       </a>
     </div>
   )
 }
@@ -68,11 +70,13 @@ function App() {
         <Switch>
             <Route path="/portfolio">
               <div className='content-container'>
+              <ContentItem name="Stock Portfolio Visualizer" img_ext="/Images/PortfolioVisualization.jpg" site="https://portfolio-visualizer.netlify.app/" />  
                 <ContentItem name="Stock Searcher" site="https://stock-searcher.netlify.app/" img_ext="/Images/Stocks.jpg"/>
-                <ContentItem name="Random Person Generator" site="https://randompersongenerator.netlify.app" img_ext='/Images/RPG.jpeg'/>
-                <ContentItem name="Filterable Table" img_ext='/Images/FTP.jpg' site="https://filterabletable.netlify.app/" />                 
                 <ContentItem name="Shopping Cart" img_ext='/Images/ShoppingCart.jpg' site="https://tech-shopping-cart.netlify.app/" />
-                <ContentItem name="Portfolio Visualization" img_ext="/Images/PortfolioVisualization.jpg" site="https://portfolio-visualizer.netlify.app/" /> 
+                <ContentItem name="Random Person Generator" site="https://randompersongenerator.netlify.app" img_ext='/Images/RPG.jpeg'/>
+                <ContentItem name="Filterable Product Table" img_ext='/Images/FTP.jpg' site="https://filterabletable.netlify.app/" />                 
+                
+               
                 {/* <ContentItem name="Movies" img_ext='/Images/RPG.jpeg' /> 
                 <ContentItem name="Movies" img_ext="/Images/Fractal.jpg" /> 
                 <ContentItem name="Movies" img_ext='/Images/RPG.jpeg' /> 
