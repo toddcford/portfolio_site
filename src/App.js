@@ -35,7 +35,7 @@ function Header(props) {
 
 function ContentItem(props) {
   return (
-    <div className="content-item">
+    <div className="content-item content-item-animation">
       <a className="content-link" href={props.site}>
         <img height='200px' width='200px' src={process.env.PUBLIC_URL + props.img_ext} alt={props.name} href="http://espn.com"/>
         <p id='content-p'> {props.name} </p> 
