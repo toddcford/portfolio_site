@@ -64,22 +64,19 @@ function App() {
         <div className="nav-container" >
           <NavigationBar items={nav_items}/>
         </div>
-        {/* <hr className="break1" /> */}
-        
         
         <Switch>
             <Route path="/portfolio">
               <div className='content-container'>
-                <ContentItem name="User Authentication App" img_ext='/Images/Auth.png' site='https://auth-mgb-app.herokuapp.com/' /> 
-                <ContentItem name="Stock Portfolio Visualizer" img_ext="/Images/PortfolioVisualization.jpg" site="https://portfolio-visualizer.netlify.app/" />  
-                <ContentItem name="Stock Searcher" site="https://stock-searcher.netlify.app/" img_ext="/Images/Stocks.jpg"/>
+                <ContentItem name="Movie Search" img_ext="/Images/Movies.png" /> 
+                <ContentItem name="User Authentication" img_ext='/Images/Auth.png' site='https://auth-mgb-app.herokuapp.com/' /> 
+                <ContentItem name="Stock Portfolio Visualizer" img_ext="/Images/PortfolioVisualization.png" site="https://portfolio-visualizer.netlify.app/" />  
+                <ContentItem name="Stock Searcher" site="https://stock-searcher.netlify.app/" img_ext="/Images/Stocks.png"/>
                 <ContentItem name="Shopping Cart" img_ext='/Images/ShoppingCart.jpg' site="https://tech-shopping-cart.netlify.app/" />
                 <ContentItem name="Random Person Generator" site="https://randompersongenerator.netlify.app" img_ext='/Images/RPG.jpeg'/>
                 <ContentItem name="Filterable Product Table" img_ext='/Images/FTP.jpg' site="https://filterabletable.netlify.app/" />                 
                 
-                
-                {/*<ContentItem name="Movies" img_ext="/Images/Fractal.jpg" /> 
-                <ContentItem name="Movies" img_ext='/Images/RPG.jpeg' /> 
+                {/*<ContentItem name="Movies" img_ext='/Images/RPG.jpeg' /> 
                 <ContentItem name="Movies" img_ext='/Images/RPG.jpeg' />   */}
               </div>
             </Route>
