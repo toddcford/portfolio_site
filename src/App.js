@@ -4,6 +4,7 @@ import './App.css';
 
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
+import Blog from './pages/Blog/Blog'
 
 
 function NavigationBar(props) {
@@ -68,7 +69,7 @@ function App() {
         <Switch>
             <Route path="/portfolio">
               <div className='content-container'>
-                <ContentItem name="Movie Search" img_ext="/Images/Movies.png" /> 
+                <ContentItem name="Movie Search" img_ext="/Images/Movies.png" site="https://movie-actor-search.herokuapp.com/" /> 
                 <ContentItem name="User Authentication" img_ext='/Images/Auth.png' site='https://auth-mgb-app.herokuapp.com/' /> 
                 <ContentItem name="Stock Portfolio Visualizer" img_ext="/Images/PortfolioVisualization.png" site="https://portfolio-visualizer.netlify.app/" />  
                 <ContentItem name="Stock Searcher" site="https://stock-searcher.netlify.app/" img_ext="/Images/Stocks.png"/>
@@ -80,6 +81,9 @@ function App() {
                 <ContentItem name="Movies" img_ext='/Images/RPG.jpeg' />   */}
               </div>
             </Route>
+            {/* <Route path="/blog">
+              <Blog />
+            </Route> */}
             <Route path="/about">
               <About />
             </Route>
