@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import { HashRouter,BrowserRouter,Route, Link, Switch } from 'react-router-dom';
+import Analytics from 'react-router-ga';
 import './App.css';
 
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
 import Blog from './pages/Blog/Blog'
-
 
 function NavigationBar(props) {
   const bar_item = props.items.map((item, key) => {
@@ -62,6 +62,7 @@ function App() {
     return (
       <div className='ReactParent'>
         <HashRouter>
+        <Analytics id='G-P0RZCVFND5' debug>
         <div className="nav-container" >
           <NavigationBar items={nav_items}/>
         </div>
@@ -96,6 +97,7 @@ function App() {
             </Route>
           </Switch>
           <Footer />
+          </Analytics>
         </HashRouter>
       </div>
     );
