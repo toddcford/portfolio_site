@@ -1,0 +1,122 @@
+.resume-wrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Esteban', serif;
+  margin-bottom: 4%;
+}
+.header-wrapper {
+  border-bottom: 1px solid black;
+}
+.header-subtitle {
+  text-align: center;
+}
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 25px;
+  
+}
+
+.page-wrapper > * {
+  grid-column: 2; 
+  
+}
+
+.space {
+  list-style-type: none;
+}
+.list {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.list-title {
+  margin-bottom: 10px;
+}
+
+.list-item {
+  padding-left: 3%;
+  font-family: 'Esteban', serif 
+}
+
+.education-list {
+  padding-left: 10px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.items {
+  font-weight: normal;
+}
+
+.sub-title {
+  text-align: left;
+}
+
+.side-list {
+  list-style-type: none;
+}
+
+.side-list > * {
+  margin: 5px 0 5px 0;
+}
+  /* padding: 5%; */
+.side-column {
+  grid-column: 1;
+  margin-top: 0px;
+  padding-right: 30px;
+  border-right: 1px solid black;
+  margin-right: 50px;
+  font-size: 15px;
+  display: grid;
+  grid-template-rows: 35% 60%
+}
+
+.side-title, .side-bottom-title {
+  text-align: center;
+}
+
+#resume-icons {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+#linked-in {
+  font-size: 16px;
+}
+
+.right-side-content {
+  margin-left: 50px;
+  /* border-left: 1px solid black; */
+  grid-column: 3;
+}
+
+.company-block {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+}
+
+.dates {
+  text-align: right;
+}
+
+.location {
+  margin-left: 2px;
+  font-size: 14px;
+}
+
+.go-home {
+  position: absolute;
+  margin-top: 0;
+  top: 10px;
+  left: 10px;
+}
+
+#go-home:hover {
+  color: #f0a04b;
+}
+
+#go-home {
+  font-size: 18px;
+}

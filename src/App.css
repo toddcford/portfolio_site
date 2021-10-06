@@ -156,6 +156,10 @@ body .content-item:hover {
   margin-top: -1%;
 }
 
+.home-email {
+  margin-top: -1%;
+}
+
 @keyframes wipe-enter {
 	0% {
 		transform: scale(0, .025);
@@ -167,4 +171,8 @@ body .content-item:hover {
 
 .content-item-animation {
   animation: wipe-enter 1s 1;
+}
+
+#content-image {
+  padding-top: 10px;
 }

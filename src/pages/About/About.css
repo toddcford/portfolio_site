@@ -1,0 +1,41 @@
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr min(75ch, 100%) 1fr
+}
+
+.about-wrapper > * {
+  grid-column: 2;
+}
+
+#about-photo {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-left: -5px;
+  /* border-radius: 50%; */
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.about-text {
+  text-align: justify;
+}
+
+.content-wrapper {
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+#todd {
+  margin: 0;
+  font-size: 20px;
+}
+
+.portfolio-link {
+  font-size: 18px;
+  color: #f0a04b;
+}
+
+.portfolio-link:hover {
+  border-bottom: 1px solid #f0a04b;
+}
