@@ -9,7 +9,7 @@ export default function Movies() {
       <h1 className='title'>Movie Search App </h1>
       <div className='open-app-div'>
         <a href='https://movie-actor-search.herokuapp.com' target='_blank' rel='noreferrer'><button className='open-app-button'>Open App</button></a>
-        <a href='https:/github.com/toddcford/Movie_App' target='_blank' rel='noreferrer'><button className='open-app-button'>Code Repository</button></a>
+        <a href='https://github.com/toddcford/Movie_App' target='_blank' rel='noreferrer'><button className='open-app-button'>Code Repository</button></a>
       </div>
       <div className='movie-content-wrapper'>
         <p>
@@ -22,8 +22,8 @@ export default function Movies() {
         <p></p>
         <p>
           The app works by first checking if the data for the user's input is located in the browser's cache. If so, it immediately
-          returns that data- in the above gif notice how quickly the data for Titanic is displayed 
-          when it is searched the second time. 
+          returns that data- i.e. in the above gif the data for Titanic is displayed much quicker
+          when it is searched the second time compared with the first. 
         </p>
         <p>
           If the browser has not yet stored the movie's data, the program checks the MongoDB database. Only if there is no

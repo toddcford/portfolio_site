@@ -9,7 +9,7 @@ export default function PortfolioViz() {
       <h1 className='title'>Portfolio Visualization App </h1>
       <div className='open-app-div'>
         <a href='https://portfolio-visualizer.netlify.app/' target='_blank' rel='noreferrer'><button className='open-app-button'>Open App</button></a>
-        <a href='https:/github.com/toddcford/PortfolioVisualizer' target='_blank' rel='noreferrer'><button className='open-app-button'>Code Repository</button></a>
+        <a href='https://github.com/toddcford/PortfolioVisualizer' target='_blank' rel='noreferrer'><button className='open-app-button'>Code Repository</button></a>
       </div>
       <div className='port_viz_content_wrapper'>
         <p >
