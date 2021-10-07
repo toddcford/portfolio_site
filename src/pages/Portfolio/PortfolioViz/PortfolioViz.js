@@ -24,12 +24,12 @@ export default function PortfolioViz() {
         <iframe src="https://giphy.com/embed/ci02GFArM8Jjt8LjgB" title='my-gif' width="640" height="292" frameBorder="0" class="giphy-embed" allowFullScreen='false'></iframe>
         <p ></p>
         <p> </p>
-        <p className='walkthrough'> Then click on get portfolio performance to gather the data and see the visualization </p>
+        <p className='walkthrough'> Then click on "Get Portfolio Performance" to gather the data and see the visualization </p>
         <p></p>
         <iframe src="https://giphy.com/embed/RWGfMDsSCTdLavSth6" title='my-gif2'width="640" height="298" frameBorder="0" class="giphy-embed" allowFullScreen='false'></iframe>
         <p> </p>
         <p> </p>
-        <p className='walkthrough'>To create a new portfolio, click the Clear Portfolio button and add another group of stocks</p>
+        <p className='walkthrough'>To create a new portfolio, click the "Clear Portfolio" button and add another group of stocks</p>
         <p></p>
         <iframe src="https://giphy.com/embed/5aumXhP05LXLn0P9j4" title='my-gif3' width="640" height="310" frameBorder="0" class="giphy-embed" allowFullScreen='false'></iframe>
         <p> </p>
