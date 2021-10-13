@@ -80,8 +80,9 @@ function App() {
               </div>
               <div className='content-container'>
                 {/* <ContentItem name="Movie Search" img_ext="/Images/Movies.png" site="https://movie-actor-search.herokuapp.com/" />  */}
-                <Link to='/movie-search'><ContentItem name="Movie Search" img_ext="/Images/Movies.png" site="https://movie-actor-search.herokuapp.com/" /></Link> 
+                
                 <Link to='/portfolio-visualizer'><ContentItem name="Stock Portfolio Visualizer" img_ext="/Images/PortfolioVisualization.png" site="https://portfolio-visualizer.netlify.app/" /> </Link>
+                <Link to='/movie-search'><ContentItem name="Movie Search" img_ext="/Images/Movies.png" site="https://movie-actor-search.herokuapp.com/" /></Link> 
                 <Link to='/userauth-search'><ContentItem name="User Authentication" img_ext='/Images/Auth.png' site='https://auth-mgb-app.herokuapp.com/' /> </Link>
                 
                 <ContentItem name="Stock Searcher" site="https://stock-searcher.netlify.app/" img_ext="/Images/Stocks.png"/>
