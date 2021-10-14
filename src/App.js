@@ -28,7 +28,7 @@ function Header(props) {
   return (
     <div className="main-header-container">
       <h1> {props.name} </h1>
-      <img id="photo" src={process.env.PUBLIC_URL + "Images/me.jpg"} alt={"toddford"}/>
+      <img id="photo" src={process.env.PUBLIC_URL + "Images/ToddFord.jpg"} alt={"toddford"}/>
       <p id='title'> {props.description} </p>
       <div className="icon-bar">
         <a href="https://twitter.com" className="fa fa-twitter"> </a>
@@ -63,7 +63,7 @@ function Footer(props) {
 
 function App() {
   // const nav_items = ['Home', 'About', 'Portfolio', 'Contact'];
-  const nav_items = ['Home', 'Portfolio'];
+  const nav_items = ['Home', 'About', 'Portfolio'];
 
     return (
       <div className='ReactParent'>

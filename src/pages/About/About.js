@@ -7,7 +7,7 @@ export default function About() {
     <div className="about-wrapper">
       <div className='content-wrapper'>
         <div>
-          <img id="about-photo" src={process.env.PUBLIC_URL + "/Images/me.jpg"} alt={"toddford"}/>
+          <img id="about-photo" src={process.env.PUBLIC_URL + "/Images/ToddFord.jpg"} alt={"toddford"}/>
         </div>
         <div className='about-text'>
          <p id='todd'>Hi, I'm Todd. </p>
