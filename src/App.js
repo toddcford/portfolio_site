@@ -63,7 +63,7 @@ function Footer(props) {
 
 function App() {
   // const nav_items = ['Home', 'About', 'Portfolio', 'Contact'];
-  const nav_items = ['Home', 'About', 'Portfolio'];
+  const nav_items = ['Home', 'Portfolio'];
 
     return (
       <div className='ReactParent'>
