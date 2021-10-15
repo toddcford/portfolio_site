@@ -87,7 +87,7 @@ function App() {
                 
                 <ContentItem name="Stock Searcher" site="https://stock-searcher.netlify.app/" img_ext="/Images/Stocks.png"/>
                 <ContentItem name="Shopping Cart" img_ext='/Images/ShoppingCart.jpg' site="https://tech-shopping-cart.netlify.app/" />
-                <ContentItem name="Random Person Generator" site="https://randompersongenerator.netlify.app" img_ext='/Images/RPG.jpeg'/>
+                {/* <ContentItem name="Random Person Generator" site="https://randompersongenerator.netlify.app" img_ext='/Images/RPG.jpeg'/> */}
                 <ContentItem name="Filterable Product Table" img_ext='/Images/FTP.jpg' site="https://filterabletable.netlify.app/" />                 
                 
                 {/*<ContentItem name="Movies" img_ext='/Images/RPG.jpeg' /> 
