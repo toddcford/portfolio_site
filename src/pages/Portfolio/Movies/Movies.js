@@ -22,8 +22,7 @@ export default function Movies() {
         <p></p>
         <p>
           The app works by first checking if the data for the user's input is located in the browser's cache. If so, it immediately
-          returns that data- i.e. in the above gif the data for Titanic is displayed much quicker
-          when it is searched the second time compared with the first. 
+          returns that data.
         </p>
         <p>
           If the browser has not yet stored the movie's data, the program checks the MongoDB database. Only if there is no
