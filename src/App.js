@@ -84,7 +84,7 @@ function App() {
                 <Link to='/portfolio-visualizer'><ContentItem name="Stock Portfolio Visualizer" img_ext="/Images/PortfolioVisualization.png" site="https://portfolio-visualizer.netlify.app/" /> </Link>
                 <Link to='/movie-search'><ContentItem name="Movie Search" img_ext="/Images/Movies.png" site="https://movie-actor-search.herokuapp.com/" /></Link> 
                 <Link to='/userauth-search'><ContentItem name="User Authentication" img_ext='/Images/Auth.png' site='https://auth-mgb-app.herokuapp.com/' /> </Link>
-                
+                <ContentItem name="Path Finding Algo Visualizer" site="https://mighty-dusk-57418.herokuapp.com/" img_ext="/Images/PathFinding.png"/>
                 <ContentItem name="Stock Searcher" site="https://stock-searcher.netlify.app/" img_ext="/Images/Stocks.png"/>
                 <ContentItem name="Shopping Cart" img_ext='/Images/ShoppingCart.jpg' site="https://tech-shopping-cart.netlify.app/" />
                 {/* <ContentItem name="Random Person Generator" site="https://randompersongenerator.netlify.app" img_ext='/Images/RPG.jpeg'/> */}
@@ -94,6 +94,7 @@ function App() {
                 <ContentItem name="Movies" img_ext='/Images/RPG.jpeg' />   */}
               </div>
             </Route>
+            
             <Route path='/portfolio-visualizer'>
               <PortfolioViz />
             </Route>
